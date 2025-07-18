@@ -17,7 +17,6 @@ Welcome to **Jan Ken Pon**! This is my **very first personal project**, and I'm 
 - [📷 Screenshots](#-screenshots)
 - [📦 Technologies Used](#-technologies-used)
 - [💻 Getting Started](#-getting-started)
-- [🙌 Contributing](#-contributing)
 - [📄 License](#-license)
 - [📬 Contact](#-contact)
 
@@ -109,9 +108,8 @@ Follow these steps to get the project running on your local machine:
 
 1.  **Clone the repository** (or download the ZIP file):
     ```bash
-    git clone [https://github.com/your-username/Jan-Ken-Pon.git](https://github.com/your-username/Jan-Ken-Pon.git)
+    git clone [https://github.com/SurajKulal1/Jan-Ken-Pon.git](https://github.com/SurajKulal1/Jan-Ken-Pon.git)
     ```
-    *(Remember to replace `your-username` with your actual GitHub username once you upload your project!)*
 
 2.  **Navigate to the project directory**:
     ```bash
@@ -127,27 +125,6 @@ Follow these steps to get the project running on your local machine:
 
 ---
 
-## 🙌 Contributing
-
-As this is my first project, I'm especially keen to learn and improve! All contributions, feedback, and suggestions are super welcome. Here’s how you can help:
-
-1.  *Fork this repository.*
-2.  *Create a feature branch*:
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-3.  *Commit your changes*:
-    ```bash
-    git commit -m "Add a cool feature"
-    ```
-4.  *Push to your fork*:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-5.  *Open a Pull Request* – I'll review it and merge it!
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute it for personal and commercial purposes.
@@ -156,7 +133,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 📬 Contact
 
-[Your GitHub Username (e.g., shodhanshetty12)](https://github.com/shodhanshetty12)
+[You Can Contact me:Suraj Kulal](https://github.com/SurajKulal1)
 
 Have suggestions, questions, or want to collaborate? Feel free to open an issue or pull request!
 
