@@ -64,3 +64,10 @@ This project was a fantastic way for me to understand and practice:
 ---
 
 ## 📂 Project Structure
+
+Rock-Paper-Scissors/
+│
+├── index.html         # HTML layout and elements for the game
+├── style.css          # Styling for game elements, modal, and responsiveness
+├── script.js          # JavaScript logic for game rules, score, and interactions
+└── README.md          # This file
