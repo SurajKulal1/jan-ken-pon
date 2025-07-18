@@ -1,10 +1,10 @@
-# ✊📄✂️ Jan Ken Pon (Rock Paper Scissors)
+# ✊📄✂️ jan ken pon (Rock Paper Scissors)
 
 [![Made with HTML, CSS & JS](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange.svg?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web)
 [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg?style=for-the-badge)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-Welcome to **Jan Ken Pon**! This is my **very first personal project**, and I'm really glad to share this fun, minimal, and interactive web application. Built using **HTML**, **CSS**, and **JavaScript**, it's the classic Rock, Paper, Scissors game where you can play against a computer opponent and keep track of your score. Whether you're learning frontend development or looking for a mini-game to add to your portfolio, this is a great place to start.
+Welcome to **jan ken pon**! This is my **very first personal project**, and I'm really glad to share this fun, minimal, and interactive web application. Built using **HTML**, **CSS**, and **JavaScript**, it's the classic Rock, Paper, Scissors game where you can play against a computer opponent and keep track of your score. Whether you're learning frontend development or looking for a mini-game to add to your portfolio, this is a great place to start.
 
 ---
 
@@ -108,12 +108,12 @@ Follow these steps to get the project running on your local machine:
 
 1.  **Clone the repository** (or download the ZIP file):
     ```bash
-    git clone [https://github.com/SurajKulal1/Jan-Ken-Pon.git](https://github.com/SurajKulal1/Jan-Ken-Pon.git)
+    git clone [https://github.com/SurajKulal1/jan-ken-pon.git](https://github.com/SurajKulal1/jan-ken-pon.git)
     ```
 
 2.  **Navigate to the project directory**:
     ```bash
-    cd Jan-Ken-Pon
+    cd jan-ken-pon
     ```
 
 3.  **Open the `index.html` file in your browser.** You can usually do this by double-clicking the file, or using your terminal:
