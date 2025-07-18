@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="modal">
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <div class="modal__header">
+                    <p class="modal__text">Rules</p>
+                    <div class="modal__closeIcon" style="width: 20px; height: 20px; cursor: pointer; position: relative;">
+                        <svg style="width: 100%; height: 100%;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal__image" style="padding: 20px; text-align: center;">
+                    <div style="font-size: 18px; line-height: 1.8; color: var(--color-dark-text); display: flex; flex-direction: column; align-items: center;">
+                        <p style="margin: 5px 0;"><strong>🪨 Rock</strong> beats ✂️ Scissors</p>
+                        <p style="margin: 5px 0;"><strong>📄 Paper</strong> beats 🪨 Rock</p>
+                        <p style="margin: 5px 0;"><strong>✂️ Scissors</strong> beats 📄 Paper</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container__content">
+            <header class="header">
+                <p class="header__logo">
+                    <span>Rock</span>
+                    <span>Paper</span>
+                    <span>Scissors</span>
+                </p>
+                <div class="header__scoreContent">
+                    <p class="header__scoreText">score</p>
+                    <p class="header__scoreNumber">0</p>
+                </div>
+            </header>
+            <div class="gameContent">
+                <div class="gameContent__bg"></div>
+                <div class="gameContent__text gameContent__text--isYou">You Picked</div>
+                <div class="gameContent__text gameContent__text--isComputer">The house picked</div>
+                
+                <div class="gameContent__gameChoice gameContent__gameChoice--isPaper" data-choice="Paper">
+                    <div class="gameContent__image">📄</div>
+                </div>
+                <div class="gameContent__gameChoice gameContent__gameChoice--isScissors" data-choice="Scissors">
+                    <div class="gameContent__image">✂️</div>
+                </div>
+                <div class="gameContent__gameChoice gameContent__gameChoice--isRock" data-choice="Rock">
+                    <div class="gameContent__image">🪨</div>
+                </div>
+                <div class="gameContent__gameChoice gameContent__gameChoice--isComputer">
+                    <div class="gameContent__image">
+                        <span class="gameContent__countdownText"></span>
+                        <span class="gameContent__gameChoiceImage"></span>
+                    </div>
+                </div>
+                <div class="gameContent__result">
+                    <span class="gameContent__resultText">You Win</span>
+                    <button class="gameContent__resultButton">Play again</button>
+                </div>
+            </div>
+        </div>
+        <div class="container__rules">Rules</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
