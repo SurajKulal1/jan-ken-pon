@@ -71,3 +71,95 @@ Rock-Paper-Scissors/
 ├── style.css          # Styling for game elements, modal, and responsiveness
 ├── script.js          # JavaScript logic for game rules, score, and interactions
 └── README.md          # This file
+
+---
+
+---
+
+## 📷 Screenshots
+
+> 📸 *Add your screenshots below* to showcase the game. Make sure your image paths are correct!
+
+### ✊📄✂️ Initial Game Screen
+![Initial screen of the Jan Ken Pon game, showing the three choices and score.](assets/screenshot-main-game.png) ### 🆚 Mid-Game (Choices Made)
+![Screenshot of the game after a choice is made, showing 'You Picked' and 'The House Picked' areas with a countdown.](assets/screenshot-your-pick.png) ### 🎉 Game Result
+![Screenshot showing the result of a round (Win/Lose/Draw) and the updated score.](assets/screenshot-result.png) ### 📖 Rules Modal
+![Screenshot of the 'Rules' modal pop-up, explaining how to play.](assets/screenshot-rules-modal.png) ---
+
+## 📦 Technologies Used
+
+| Technology | Description |
+|------------|-------------|
+| 🧱 HTML5   | For structuring the game's content and elements. |
+| 🎨 CSS3    | For all the visual styling, animations, and responsive design. |
+| ⚙ JavaScript | For handling the game logic, interactivity, and dynamic content updates. |
+
+---
+
+## 💻 Getting Started
+
+Follow these steps to get the project running on your local machine:
+
+### 🔧 Prerequisites
+
+* A modern web browser (e.g., Chrome, Firefox, Edge, Safari).
+* Basic understanding of HTML, CSS, and JavaScript is helpful, but not required to run it!
+
+### 🚀 Installation
+
+1.  **Clone the repository** (or download the ZIP file):
+    ```bash
+    git clone [https://github.com/your-username/Jan-Ken-Pon.git](https://github.com/your-username/Jan-Ken-Pon.git)
+    ```
+    *(Remember to replace `your-username` with your actual GitHub username once you upload your project!)*
+
+2.  **Navigate to the project directory**:
+    ```bash
+    cd Jan-Ken-Pon
+    ```
+
+3.  **Open the `index.html` file in your browser.** You can usually do this by double-clicking the file, or using your terminal:
+    ```bash
+    start index.html   # On Windows
+    open index.html    # On macOS
+    ```
+    Alternatively, simply *drag and drop* the `index.html` file into your web browser.
+
+---
+
+## 🙌 Contributing
+
+As this is my first project, I'm especially keen to learn and improve! All contributions, feedback, and suggestions are super welcome. Here’s how you can help:
+
+1.  *Fork this repository.*
+2.  *Create a feature branch*:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3.  *Commit your changes*:
+    ```bash
+    git commit -m "Add a cool feature"
+    ```
+4.  *Push to your fork*:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5.  *Open a Pull Request* – I'll review it and merge it!
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute it for personal and commercial purposes.
+
+---
+
+## 📬 Contact
+
+[Your GitHub Username (e.g., shodhanshetty12)](https://github.com/shodhanshetty12)
+
+Have suggestions, questions, or want to collaborate? Feel free to open an issue or pull request!
+
+---
+
+> 💡 Don't forget to ⭐ star the repo if you found it helpful!
