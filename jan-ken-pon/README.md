@@ -1,156 +1,66 @@
-🪨📄✂️ Rock Paper Scissors
-Welcome to Rock Paper Scissors, a classic and engaging web application built using HTML, CSS, and JavaScript. This project allows you to play a round of Rock Paper Scissors against a computer opponent, keeping score as you go! Whether you're learning frontend development or looking for a mini-game to add to your portfolio, this is a great place to start.
+# ✊📄✂️ Jan Ken Pon (Rock Paper Scissors)
 
-📑 Table of Contents
-🎮 Features
+[![Made with HTML, CSS & JS](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange.svg?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web)
+[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg?style=for-the-badge)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-⚙ How It Works
+Welcome to **Jan Ken Pon**! This is my **very first personal project**, and I'm really glad to share this fun, minimal, and interactive web application. Built using **HTML**, **CSS**, and **JavaScript**, it's the classic Rock, Paper, Scissors game where you can play against a computer opponent and keep track of your score. Whether you're learning frontend development or looking for a mini-game to add to your portfolio, this is a great place to start.
 
-🧠 Concepts Covered
+---
 
-📂 Project Structure
+## 📑 Table of Contents
 
-📷 Screenshots
+- [🎮 Features](#-features)
+- [⚙ How It Works](#-how-it-works)
+- [🧠 Concepts Covered](#-concepts-covered)
+- [📂 Project Structure](#-project-structure)
+- [📷 Screenshots](#-screenshots)
+- [📦 Technologies Used](#-technologies-used)
+- [💻 Getting Started](#-getting-started)
+- [🙌 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📬 Contact](#-contact)
 
-📦 Technologies Used
 
-💻 Getting Started
+---
 
-🙌 Contributing
+## 🎮 Features
 
-📄 License
+* ✅ Clean and responsive UI
+* 🤖 Play against a computer AI
+* 🔢 Score tracking for wins, losses, and draws
+* 🖼 Dynamic updates with emojis for choices
+* 📱 Fully responsive – works on mobile and desktop
+* ⚡ Lightning-fast with zero dependencies
+* 👨‍🏫 Beginner-friendly code structure
+* 🧩 Perfect for small JavaScript projects or code challenges
 
-📬 Contact
+---
 
-🎮 Features
-✅ Clean and responsive UI
+## ⚙ How It Works
 
-🎮 Play against a computer opponent
+1.  When you make your choice (Rock, Paper, or Scissors), the game immediately transitions to a comparison screen.
+2.  A brief countdown starts, building anticipation for the computer's choice.
+3.  The computer's choice is randomly generated using `Math.floor(Math.random() * 3)`.
+4.  The result (Win, Lose, or Draw) is displayed, and your score is updated accordingly.
+5.  You can then click "Play Again" to start a new round!
 
-🔢 Dynamic score tracking
+The entire game logic is written in **vanilla JavaScript** without any external libraries, and the visuals are handled with CSS for layout and responsiveness.
 
-📱 Fully responsive – works on mobile and desktop
+---
 
-⚡ Lightning-fast with zero dependencies
+## 🧠 Concepts Covered
 
-👨‍🏫 Beginner-friendly code structure
+This project was a fantastic way for me to understand and practice:
 
-🧩 Perfect for small JavaScript projects or code challenges
+* ✅ Basic **HTML structure** and semantics
+* 🎨 **CSS styling**, animations, and responsive layout techniques
+* 🧠 **DOM Manipulation** in JavaScript (selecting, adding/removing classes, updating text content)
+* 🔁 **Event Handling** (responding to user clicks)
+* 🧮 Using `Math.random()` and `Math.floor()` for random number generation
+* ⏱ Implementing **timed functions** with `setTimeout` for the countdown
+* 📱 Making websites **responsive** for different screen sizes
 
-⚙ How It Works
-User Choice: The user selects one of three options: Rock, Paper, or Scissors.
+---
 
-Computer Choice: Simultaneously, the computer randomly selects its own choice.
-
-Result Determination:
-
-Rock beats Scissors
-
-Paper beats Rock
-
-Scissors beats Paper
-
-If both select the same, it's a draw.
-
-Score Update: The score is updated based on the round's outcome (win, lose, or draw).
-
-Play Again: Users can easily play another round after the result is displayed.
-
-The logic is written entirely in vanilla JavaScript without any external libraries. The game visuals are styled with CSS to maintain layout and responsiveness, providing an intuitive user experience.
-
-🧠 Concepts Covered
-This project is great for understanding and practicing:
-
-✅ Basic HTML structure and semantics
-
-🎨 CSS styling, alignment, and layout techniques (including flexbox)
-
-🧠 DOM Manipulation in JavaScript
-
-🔁 Handling click events
-
-🧮 Using Math.random() and Math.floor() for random selection
-
-🖼 Updating HTML elements dynamically
-
-📱 Making websites responsive with media queries
-
-✨ Implementing simple animations and transitions
-
-📂 Project Structure
-Rock-Paper-Scissors/
-│
-├── index.html         # HTML layout and elements for the game
-├── style.css          # Styling for game elements, modal, and responsiveness
-├── script.js          # JavaScript logic for game rules, score, and interactions
-└── README.md          # This file
-📷 Screenshots
-📸 See the game in action!
-
-🎮 Initial State
-🚀 Mid-Game (Picking/Countdown)
-🎉 After Result
-📄 Rules Modal
-📦 Technologies Used
-Technology	Description
-🧱 HTML5	Page structure and content
-🎨 CSS3	Layout, fonts, animations, and responsiveness
-⚙ JavaScript	Dynamic game functionality and interactivity
-
-Export to Sheets
-💻 Getting Started
-Follow these steps to get the project running on your local machine:
-
-🔧 Prerequisites
-A modern web browser (Chrome, Firefox, Edge, etc.)
-
-Basic understanding of HTML/CSS/JS (recommended)
-
-🚀 Installation
-Clone the repository
-
-Bash
-
-git clone https://github.com/shodhanshetty12/Rock-Paper-Scissors.git
-Navigate to the project directory
-
-Bash
-
-cd Rock-Paper-Scissors
-Open the project in your browser
-
-Bash
-
-start index.html   # On Windows
-open index.html    # On macOS
-Or simply drag and drop index.html into your browser.
-
-🙌 Contributing
-We welcome contributions of all kinds! Here’s how you can help:
-
-Fork this repository
-
-Create a feature branch
-
-Bash
-
-git checkout -b feature/your-feature-name
-Commit your changes
-
-Bash
-
-git commit -m "Add a cool feature"
-Push to your fork
-
-Bash
-
-git push origin feature/your-feature-name
-Open a Pull Request – we’ll review and merge it!
-
-📄 License
-This project is licensed under the MIT License. You are free to use, modify, and distribute it for personal and commercial purposes.
-
-📬 Contact
-shodhanshetty12
-
-Have suggestions or want to collaborate? Feel free to open an issue or pull request!
+## 📂 Project Structure
